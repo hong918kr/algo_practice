@@ -13,7 +13,6 @@ So leaf nodes with no children should be kept, and nodes with 2 children should 
 ## Here's a starting point:
 
 '''
-
 from collections import deque
 
 class Node(object):
@@ -67,8 +66,6 @@ print fullBinaryTree(tree)
 # 1
 # 03
 # 94
-
-
 '''
 
 
