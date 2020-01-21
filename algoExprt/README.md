@@ -1,5 +1,17 @@
 # AlgoExpert Question
 ### website: www.algoexpert.io
+### My Study Process (Jan-20-20)
+Read through the question
+Think first! 
+Study instructor's solution
+Create my testing Code
+Run Instructor's Solution based on my testing Code
+Add Explanation line by line with verbally explain by myself
+Solve by myself without solution
+Testing my code
+See the Result, if pass, mark this README file.
+
+
 
 # Group by Category
 ## Arrays
