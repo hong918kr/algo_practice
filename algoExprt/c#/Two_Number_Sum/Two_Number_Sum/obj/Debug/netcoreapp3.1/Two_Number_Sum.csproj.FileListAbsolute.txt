@@ -1,0 +1,13 @@
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\bin\Debug\netcoreapp3.1\Two_Number_Sum.exe
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\bin\Debug\netcoreapp3.1\Two_Number_Sum.deps.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\bin\Debug\netcoreapp3.1\Two_Number_Sum.runtimeconfig.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\bin\Debug\netcoreapp3.1\Two_Number_Sum.runtimeconfig.dev.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\bin\Debug\netcoreapp3.1\Two_Number_Sum.dll
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\bin\Debug\netcoreapp3.1\Two_Number_Sum.pdb
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\obj\Debug\netcoreapp3.1\Two_Number_Sum.csprojAssemblyReference.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\obj\Debug\netcoreapp3.1\Two_Number_Sum.csproj.CoreCompileInputs.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\obj\Debug\netcoreapp3.1\Two_Number_Sum.AssemblyInfoInputs.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\obj\Debug\netcoreapp3.1\Two_Number_Sum.AssemblyInfo.cs
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\obj\Debug\netcoreapp3.1\Two_Number_Sum.dll
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\obj\Debug\netcoreapp3.1\Two_Number_Sum.pdb
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Two_Number_Sum\Two_Number_Sum\obj\Debug\netcoreapp3.1\Two_Number_Sum.genruntimeconfig.cache
