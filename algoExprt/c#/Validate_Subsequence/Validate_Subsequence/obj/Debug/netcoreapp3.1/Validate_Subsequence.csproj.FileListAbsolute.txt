@@ -1,0 +1,13 @@
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\bin\Debug\netcoreapp3.1\Validate_Subsequence.exe
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\bin\Debug\netcoreapp3.1\Validate_Subsequence.deps.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\bin\Debug\netcoreapp3.1\Validate_Subsequence.runtimeconfig.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\bin\Debug\netcoreapp3.1\Validate_Subsequence.runtimeconfig.dev.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\bin\Debug\netcoreapp3.1\Validate_Subsequence.dll
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\bin\Debug\netcoreapp3.1\Validate_Subsequence.pdb
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\obj\Debug\netcoreapp3.1\Validate_Subsequence.csprojAssemblyReference.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\obj\Debug\netcoreapp3.1\Validate_Subsequence.csproj.CoreCompileInputs.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\obj\Debug\netcoreapp3.1\Validate_Subsequence.AssemblyInfoInputs.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\obj\Debug\netcoreapp3.1\Validate_Subsequence.AssemblyInfo.cs
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\obj\Debug\netcoreapp3.1\Validate_Subsequence.dll
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\obj\Debug\netcoreapp3.1\Validate_Subsequence.pdb
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\Validate_Subsequence\Validate_Subsequence\obj\Debug\netcoreapp3.1\Validate_Subsequence.genruntimeconfig.cache
