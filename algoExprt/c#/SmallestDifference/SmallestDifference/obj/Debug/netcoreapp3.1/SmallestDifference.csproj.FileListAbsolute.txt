@@ -1,0 +1,13 @@
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\bin\Debug\netcoreapp3.1\SmallestDifference.exe
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\bin\Debug\netcoreapp3.1\SmallestDifference.deps.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\bin\Debug\netcoreapp3.1\SmallestDifference.runtimeconfig.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\bin\Debug\netcoreapp3.1\SmallestDifference.runtimeconfig.dev.json
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\bin\Debug\netcoreapp3.1\SmallestDifference.dll
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\bin\Debug\netcoreapp3.1\SmallestDifference.pdb
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\obj\Debug\netcoreapp3.1\SmallestDifference.csprojAssemblyReference.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\obj\Debug\netcoreapp3.1\SmallestDifference.csproj.CoreCompileInputs.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\obj\Debug\netcoreapp3.1\SmallestDifference.AssemblyInfoInputs.cache
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\obj\Debug\netcoreapp3.1\SmallestDifference.AssemblyInfo.cs
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\obj\Debug\netcoreapp3.1\SmallestDifference.dll
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\obj\Debug\netcoreapp3.1\SmallestDifference.pdb
+C:\Users\hong9\Documents\algo_practice\algoExprt\c#\SmallestDifference\SmallestDifference\obj\Debug\netcoreapp3.1\SmallestDifference.genruntimeconfig.cache
