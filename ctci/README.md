@@ -1,9 +1,12 @@
 ## Cracking the Coding Interview
 - Data Structure
-	- df
+	- 1,2,3,4 
 - Concepts and Algorithms
+	- 5 ~ 11
 - Knowledge based
+	- 12 ~ 15
 - Additional review problems
+	- 16, 17
 
 ## Contents
 1. Arrays and Strings
