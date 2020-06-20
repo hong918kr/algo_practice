@@ -11,7 +11,8 @@ namespace ArraysAndStrings
             ProgramTest.IsUnique_test();
             Console.WriteLine("IsUnique test Pass");
 
-            
+            ProgramTest.CheckPermutation_test();
+            Console.WriteLine("CheckPermutation test Pass");
 
 
         }
@@ -75,11 +76,97 @@ namespace ArraysAndStrings
             /*
              * Given two strings, write a method to decide if one is a permutation of the other.
              */
+            
+            if (s1.Length < s2.Length)
+            {
+                string temp = s1;
+                s1 = s2;
+                s2 = temp;
+            } // s1 is always longer than s2
+
+            char[] s1charArr = s1.ToCharArray();
+            Array.Sort(s1charArr);
+            char[] s2charArr = s2.ToCharArray();
+            Array.Sort(s2charArr);
+
+            int s1Ptr = 0;
+            int s2Ptr = 0;
 
 
+            while (s1Ptr < s1charArr.Length)
+            {
+                if (s2Ptr == s2charArr.Length)
+                {
+                    return true;
+                }
 
-            return true;
+                if (s1charArr[s1Ptr] == s2charArr[s2Ptr])
+                {                    
+                    ++s1Ptr;
+                    ++s2Ptr;                    
+                } else
+                {
+                    ++s1Ptr;
+                }
+            }
+
+            if (s2Ptr < s2charArr.Length)
+            {
+                return false;
+            } else
+            {
+                return true;
+            }
+           
         }
+
+        public String Sort(String s)
+        {
+            char[] content = s.ToCharArray();
+            Array.Sort(content);
+            return new string(content);
+        }
+
+        bool CheckPermutation_book1(String s, String t)
+        {
+            if (s.Length != t.Length)
+            {
+                return false;
+            }
+            return Sort(s).Equals(Sort(t));
+        }
+
+        
+        bool CheckPermutation_book2(String s, String t)
+        {   // Check if the two strings have identical character counts.
+            if (s.Length != t.Length)
+            {
+                return false;
+            }
+            int[] letters = new int[128]; // Assumption
+
+            char[] s_array = s.ToCharArray();
+            foreach (char c in s_array)
+            {   // Count number of each char in s.
+                ++letters[c];
+            }
+
+            for (int i = 0; i < t.Length; i++)
+            {
+                int c = (int)t[i];
+                --letters[c];
+                if (letters[c] < 0)
+                {
+                    return false;
+                }
+            }
+            return true;           
+        }
+
+
+
+
+
 
         public static string URLify()
         {
