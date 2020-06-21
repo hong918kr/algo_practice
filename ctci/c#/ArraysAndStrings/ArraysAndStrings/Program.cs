@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
+using System.Linq;
 
 namespace ArraysAndStrings
 {
@@ -14,6 +15,8 @@ namespace ArraysAndStrings
             ProgramTest.CheckPermutation_test();
             Console.WriteLine("CheckPermutation test Pass");
 
+            ProgramTest.URLify_test();
+            Console.WriteLine("URLify test Pass");
 
         }
 
@@ -69,7 +72,6 @@ namespace ArraysAndStrings
             }
             return true;
         }
-
 
         public static bool CheckPermutation(string s1, string s2)
         {
@@ -135,7 +137,6 @@ namespace ArraysAndStrings
             }
             return Sort(s).Equals(Sort(t));
         }
-
         
         bool CheckPermutation_book2(String s, String t)
         {   // Check if the two strings have identical character counts.
@@ -163,24 +164,70 @@ namespace ArraysAndStrings
             return true;           
         }
 
-
-
-
-
-
-        public static string URLify()
+        public static string URLify(String s, int l)
         {
             /*
              * Write a method to replace all spaces in a string with '%20'. You may assume that the string
-             * has sufficient space at the end to hlod the additional charaters, and that you are given the 'true'
+             * has sufficient space at the end to hold the additional charaters, and that you are given the 'true'
              * length of the string. (Note: If implementing in Java, please use a character array so that you can
              * perform this operation in place.)
              * 
              * Input: "Mr John Smith         ", 13
              * Ouput: "Mr%20John%20Smith"
              */
-            return "";
+
+            char[] s_array = s.ToCharArray();
+            char[] ret = new char[3 * l];
+            foreach (char c in s_array)
+            {
+                if (c == ' ')
+                {
+                    ret.Append('%');
+                    ret.Append('2');
+                    ret.Append('0');
+                }
+
+                ret.Append(c);
+            }
+            string ret_string = ret.ToString().Trim();
+
+            return ret_string;
+
+            
         }
+
+        public void URLify_book(char[] str, int length)
+        {
+            int spaceCount = 0;
+            int newLength;
+            int i;
+
+            for (i = 0; i < length; i++)
+            {
+                if (str[i] == ' ')
+                {
+                    spaceCount++;
+                }
+            }
+            newLength = length + spaceCount * 2;
+            str[newLength] = '\0';
+            for (i = length - 1; i >= 0; i--)
+            {
+                if (str[i] == ' ')
+                {
+                    str[newLength - 1] = '0';
+                    str[newLength - 2] = '2';
+                    str[newLength - 3] = '%';
+                    newLength = newLength - 3;
+                }
+                else
+                {
+                    str[newLength - 1] = str[i];
+                    newLength = newLength - 1;
+                }
+            }
+        }
+
 
         public static bool palindromePermutation()
         {

@@ -37,8 +37,24 @@ namespace ArraysAndStrings
 
             Debug.Assert(Program.CheckPermutation(s1_1, s2_1));
             Debug.Assert(!Program.CheckPermutation(s1_2, s2_2));
+        }
+
+        public static void URLify_test()
+        {           
+            string s_1 = "Mr John Smith         ";
+            int i_1 = 13;
+
+            string output_1 = "Mr%20John%20Smith";
+
+            Debug.Assert(Program.URLify(s_1, i_1) == output_1);
 
         }
 
     }
 }
+
+
+
+
+
+            
