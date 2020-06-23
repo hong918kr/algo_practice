@@ -49,6 +49,14 @@ namespace ArraysAndStrings
             Debug.Assert(Program.URLify(s_1, i_1) == output_1);
 
         }
+        
+
+        public static void palindromePermutation_test()
+        {
+            string input1 = "Tact Coa";
+            
+            Debug.Assert(Program.palindromePermutation(input1));
+        }
 
     }
 }

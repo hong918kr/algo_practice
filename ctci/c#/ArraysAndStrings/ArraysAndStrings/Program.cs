@@ -18,6 +18,8 @@ namespace ArraysAndStrings
             ProgramTest.URLify_test();
             Console.WriteLine("URLify test Pass");
 
+            ProgramTest.palindromePermutation_test();
+            Console.WriteLine("CheckPermutation test Pass");
         }
 
         public static bool IsUnique(string s)
@@ -229,7 +231,7 @@ namespace ArraysAndStrings
         }
 
 
-        public static bool palindromePermutation()
+        public static bool palindromePermutation(String s)
         {
             /*
              * Given a string, write a function to check if it is a permutation of a palindrome.
@@ -240,6 +242,23 @@ namespace ArraysAndStrings
              * Output: True (Permutations: "taco cat", "atco cta", etc)
              *           
              */
+
+            string new_s = s.Trim();
+            char[] new_c = new_s.ToCharArray();
+            int start = 0;
+            int end = new_c.Length - 1;            
+            while (start < end)
+            {
+                if (new_c[start] != new_c[end])
+                {
+                    return false;
+                }
+                else
+                {
+                    ++start;
+                    --end;
+                }                
+            }                       
             return true;
         }
 
